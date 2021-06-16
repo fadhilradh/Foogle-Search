@@ -51,12 +51,12 @@ export default function Home() {
       </header>
 
       <form className="flex flex-col items-center mt-44 flex-grow w-4/5">
-        <Image
+        <img
           src="/logo.png"
           width={300}
           height={100}
           alt="logo "
-          className="h-20"
+          className="h-14 w-40 sm:h-24 sm:w-72"
         />
         <div
           className="flex px-5 py-3 w-full max-w-md my-5 border border-gray-200 rounded-full 
