@@ -32,9 +32,9 @@ export default function Home() {
   return (
     <div className="flex flex-col h-screen items-center justify-center">
       <Head>
-        <title>Google Clone</title>
+        <title>Google</title>
         <meta name="description" content="Google clone" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/google-header.jpeg" />
       </Head>
 
       <header className="flex justify-end w-full h-14 items-center pr-5">
