@@ -1,8 +1,8 @@
-function Avatar({ url }) {
+function Avatar({ url, className }) {
   return (
     <img
       src={url}
-      className="rounded-full h-8 cursor-pointer transition duration-150 transform hover:scale-110"
+      className={`rounded-full h-10 cursor-pointer transition duration-150 transform hover:scale-110 ${className}`}
       loading="lazy"
       alt="profile pic"
     />
