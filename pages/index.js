@@ -50,7 +50,7 @@ export default function Home() {
         </div>
       </header>
 
-      <form className="flex flex-col items-center mt-44 flex-grow w-4/5">
+      <form className="flex flex-col items-center mt-44 flex-grow w-11/12">
         <img
           src="/logo.png"
           width={300}
@@ -59,16 +59,16 @@ export default function Home() {
           className="h-14 w-40 sm:h-24 sm:w-72"
         />
         <div
-          className="flex px-5 py-3 w-full max-w-md my-5 border border-gray-200 rounded-full 
+          className="flex items-center px-4 py-2 w-full max-w-lg my-5 border border-gray-200 rounded-full 
         outline-none hover:shadow-google focus-within:shadow-google sm:max-w-xl lg:max-w-2xl"
         >
-          <SearchIcon className="h-5 mr-3 text-gray-500" />
+          <SearchIcon className="h-5 mr-3 text-gray-400" />
           <input
             type="name"
             ref={searchInputRef}
             className="flex-grow focus:outline-none"
           />
-          <MicrophoneIcon className="h-5 ml-3 text-gray-500" />
+          <MicrophoneIcon className="hidden sm:inline-flex h-5 ml-3 text-gray-500" />
         </div>
         <div className="flex flex-col w-1/2 space-y-3 sm:space-x-5 justify-center mt-5 sm:space-y-0 sm:flex-row">
           <button
