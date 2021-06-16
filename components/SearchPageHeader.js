@@ -33,8 +33,8 @@ function SearchPageHeader() {
         </div>
 
         <form
-          className="flex sm:ml-36 md:ml-10 sm:justify-start w-full flex-grow max-w-3xl items-center 
-        rounded-full px-6 py-2 sm:mr-5 shadow-google"
+          className="flex sm:ml-36 md:ml-10 lg:ml-36 sm:justify-start w-full flex-grow max-w-3xl items-center 
+        rounded-full px-6 py-2 sm:mr-5 shadow-search-page hover:shadow-google focus:shadow-google"
         >
           <input
             type="text"
