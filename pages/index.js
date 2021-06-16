@@ -13,19 +13,19 @@ export default function Home() {
   const searchInputRef = useRef(null);
   const search = async (event) => {
     event.preventDefault();
-    const searchTerm = searchInputRef.current.value;
-    if (!searchTerm) return;
+    const term = searchInputRef.current.value;
+    if (!term) return;
 
-    await router.push(`/search?term=${searchTerm}`);
+    await router.push(`/search?term=${term}`);
   };
 
   const searchWithEnter = async (event) => {
     if (event.keyCode === 13) {
       event.preventDefault();
-      const searchTerm = searchInputRef.current.value;
-      if (!searchTerm) return;
+      const term = searchInputRef.current.value;
+      if (!term) return;
 
-      await router.push(`/search?term=${searchTerm}`);
+      await router.push(`/search?term=${term}`);
     }
     return;
   };
@@ -42,9 +42,11 @@ export default function Home() {
           <a className="link" href="https://gmail.com">
             Gmail
           </a>
-          <a className="link">Images</a>
+          <a className="link" href="https://images.google.com/">
+            Images
+          </a>
           <ViewGridIcon className="h-10 w-10 p-2" />
-          <Avatar url={"https://coaching.papareact.com/ai9"} />
+          <Avatar url={"/fadhil.jpeg"} />
         </div>
       </header>
 
@@ -74,11 +76,7 @@ export default function Home() {
             type="submit"
             className="btn hidden md:inline-flex"
           >
-            {/* onKeyDown={searchWithEnter}  */}
             Google Search
-          </button>
-          <button onClick={search} className="btn hidden md:inline-flex ">
-            I'm Feeling Lucky
           </button>
         </div>
       </form>

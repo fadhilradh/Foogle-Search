@@ -1,12 +1,14 @@
-function HeaderTab({ Icon, title, selected }) {
+function HeaderTab({ Icon, title, selected, href }) {
   return (
     <div
-      className={`flex items-center space-x-1 border-b-4 border-transparent hover:text-blue-500 hover:border-blue-500 ${
-        selected && "text-blue-500 border-blue-500"
+      className={`pb-2 flex items-center space-x-1 border-b-[3px] border-transparent hover:text-blue-500 hover:border-blue-600 ${
+        selected && "text-blue-500 border-blue-600"
       }`}
     >
       <Icon className="h-4" />
-      <p className="hidden sm:inline-flex">{title}</p>
+      <a href={href} className="hidden sm:inline-flex">
+        {title}
+      </a>
     </div>
   );
 }

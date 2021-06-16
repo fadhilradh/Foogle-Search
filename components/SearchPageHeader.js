@@ -3,6 +3,7 @@ import Image from "next/image";
 import { useRouter } from "next/router";
 import { useRef } from "react";
 import Avatar from "./Avatar";
+import HeaderTabs from "./HeaderTabs";
 
 function SearchPageHeader() {
   const router = useRouter();
@@ -10,9 +11,9 @@ function SearchPageHeader() {
   const search = (event) => {
     event.preventDefault();
 
-    const searchTerm = searchInputRef.current.value;
-    if (!searchTerm) return;
-    router.push(`/search/${searchTerm}`);
+    const term = searchInputRef.current.value;
+    if (!term) return;
+    router.push(`/search?term=${term}`);
   };
   return (
     <header className="sticky top-0 bg-white">
@@ -39,11 +40,9 @@ function SearchPageHeader() {
           <SearchIcon className="h-7 text-blue-500 ml-3 hidden sm:inline-flex" />
           <button className="hidden" type="submit" onClick={search} />
         </form>
-        <Avatar
-          className="ml-auto"
-          url={"https://coaching.papareact.com/ai9"}
-        />
+        <Avatar className="ml-auto" url={"/fadhil.jpeg"} />
       </div>
+      <HeaderTabs />
     </header>
   );
 }

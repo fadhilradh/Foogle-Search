@@ -16,10 +16,22 @@ function HeaderTabs() {
     >
       <div className="flex space-x-6">
         <HeaderTab Icon={SearchIcon} title="All" selected />
-        <HeaderTab Icon={PhotographIcon} title="Images" />
-        <HeaderTab Icon={NewspaperIcon} title="News" />
-        <HeaderTab Icon={PlayIcon} title="Video" />
-        <HeaderTab Icon={MapIcon} title="Map" />
+        <HeaderTab
+          Icon={PhotographIcon}
+          title="Images"
+          href="https://images.google.com/"
+        />
+        <HeaderTab
+          Icon={NewspaperIcon}
+          title="News"
+          href="https://news.google.com/"
+        />
+        <HeaderTab
+          Icon={PlayIcon}
+          title="Video"
+          href="https://www.youtube.com/"
+        />
+        <HeaderTab Icon={MapIcon} title="Map" href="https://maps.google.com/" />
         <HeaderTab Icon={DotsVerticalIcon} title="More" />
       </div>
 
