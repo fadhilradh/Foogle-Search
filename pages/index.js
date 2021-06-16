@@ -33,7 +33,7 @@ export default function Home() {
     <div className="flex flex-col h-screen items-center justify-center">
       <Head>
         <title>Google</title>
-        <meta name="description" content="Google clone" />
+        <meta name="description" content="Google" />
         <link rel="icon" href="/google-header.jpeg" />
       </Head>
 

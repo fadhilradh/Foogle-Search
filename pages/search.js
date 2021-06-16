@@ -11,7 +11,9 @@ function Search({ results }) {
   return (
     <div>
       <Head>
+        <meta name="description" content="Google" />
         <title>{router.query.term} - Google Search</title>
+        <link rel="icon" href="/google-header.jpeg" />
       </Head>
 
       <SearchPageHeader />
