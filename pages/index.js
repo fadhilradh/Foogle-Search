@@ -56,7 +56,7 @@ export default function Home() {
           width={300}
           height={100}
           alt="logo "
-          className="h-14 w-40 sm:h-24 sm:w-96"
+          className="h-14 w-44 sm:h-24 sm:w-96"
         />
         <div
           className="flex items-center px-4 py-2 w-full max-w-lg my-5 border border-gray-200 rounded-full 
