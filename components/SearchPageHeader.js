@@ -18,13 +18,13 @@ function SearchPageHeader() {
   return (
     <header className="sticky top-0 bg-white">
       <div className="flex flex-col w-full px-4 py-6 sm:p-6 items-center sm:items-start">
-        <div className="flex w-full justify-center sm:justify-start mb-3">
+        <div className="flex w-full items-center justify-center sm:justify-start mb-3">
           <div className="flex-1 sm:hidden"></div>
           <Image
             className="cursor-pointer flex-1 "
             src="/logo-parody.jpeg"
             width={150}
-            height={30}
+            height={55}
             onClick={() => router.push("/")}
           />
           <div className="flex-1 flex justify-end ">
