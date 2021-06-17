@@ -12,7 +12,7 @@ function HeaderTabs() {
   return (
     <div
       className="flex justify-evenly w-full text-sm lg:text-base lg:justify-start 
-    lg:space-x-36 lg:pl-40 ml-6 text-[#5f6368] border-b-[#EBEBEB] border-b"
+    lg:space-x-36 lg:pl-48 text-[#5f6368] border-b-[#EBEBEB] border-b"
     >
       <div className="flex space-x-6">
         <HeaderTab Icon={SearchIcon} title="All" selected />
