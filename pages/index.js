@@ -32,8 +32,8 @@ export default function Home() {
   return (
     <div className="flex flex-col h-screen items-center justify-center">
       <Head>
-        <title>Google</title>
-        <meta name="description" content="Google" />
+        <title>Noodles</title>
+        <meta name="description" content="Noodle" />
         <link rel="icon" href="/google-header.jpeg" />
       </Head>
 

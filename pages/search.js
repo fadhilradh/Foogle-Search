@@ -11,8 +11,8 @@ function Search({ results }) {
   return (
     <div>
       <Head>
-        <meta name="description" content="Google" />
-        <title>{router.query.term} - Google Search</title>
+        <meta name="description" content="Noodle" />
+        <title>{router.query.term} - Noodle Search</title>
         <link rel="icon" href="/google-header.jpeg" />
       </Head>
 
