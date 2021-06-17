@@ -12,7 +12,7 @@ function Search({ results }) {
     <div>
       <Head>
         <meta name="description" content="Noodle" />
-        <title>{router.query.term} - Noodle Search</title>
+        <title>{router.query.term} - Foodle Search</title>
         <link rel="icon" href="/google-header.jpeg" />
       </Head>
 
