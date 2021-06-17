@@ -19,8 +19,6 @@ function Search({ results }) {
       <SearchPageHeader />
 
       <SearchResults results={results} />
-
-      <div></div>
     </div>
   );
 }
@@ -28,7 +26,7 @@ function Search({ results }) {
 export default Search;
 
 export async function getServerSideProps(context) {
-  const useDummyData = false;
+  const useDummyData = true;
   const startIndex = context.query.start || "0";
   const data = useDummyData
     ? Response

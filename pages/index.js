@@ -40,7 +40,7 @@ export default function Home() {
       <header className="flex justify-end w-full h-14 items-center pr-5">
         <div className="flex space-x-4 items-center text-sm">
           <a className="link" href="https://gmail.com">
-            Gmail
+            Fmail
           </a>
           <a className="link" href="https://images.google.com/">
             Images
@@ -52,11 +52,11 @@ export default function Home() {
 
       <form className="flex flex-col items-center mt-44 flex-grow w-11/12">
         <img
-          src="/logo.png"
+          src="/logo-parody.jpeg"
           width={300}
           height={100}
           alt="logo "
-          className="h-14 w-40 sm:h-24 sm:w-72"
+          className="h-14 w-40 sm:h-24 sm:w-96"
         />
         <div
           className="flex items-center px-4 py-2 w-full max-w-lg my-5 border border-gray-200 rounded-full 
@@ -76,7 +76,7 @@ export default function Home() {
             type="submit"
             className="btn hidden md:inline-flex"
           >
-            Google Search
+            Noodles Search
           </button>
         </div>
       </form>

@@ -22,8 +22,8 @@ function SearchPageHeader() {
           <div className="flex-1 sm:hidden"></div>
           <Image
             className="cursor-pointer flex-1 "
-            src="/logo.png"
-            width={120}
+            src="/logo-parody.jpeg"
+            width={150}
             height={30}
             onClick={() => router.push("/")}
           />
@@ -33,7 +33,7 @@ function SearchPageHeader() {
         </div>
 
         <form
-          className="flex sm:ml-36 md:ml-10 lg:ml-36 sm:justify-start w-full flex-grow max-w-3xl items-center 
+          className="flex sm:ml-40 md:ml-10 lg:ml-40 sm:justify-start w-full flex-grow max-w-3xl items-center 
         rounded-full px-6 py-2 sm:mr-5 shadow-search-page hover:shadow-google focus:shadow-google"
         >
           <input

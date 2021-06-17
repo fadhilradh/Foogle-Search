@@ -4,7 +4,7 @@ function SearchResults({ results }) {
   return (
     <div
       className="mx-auto w-full text-sm px-3 sm:pl-[5%] 
-    md:pl-[14%] lg:text-base lg:pl-40 mt-5"
+    md:pl-[14%] lg:text-base lg:pl-40 mt-5 ml-6"
     >
       <p className="text-[#70757a]">
         About {results?.searchInformation?.formattedTotalResults} results (
