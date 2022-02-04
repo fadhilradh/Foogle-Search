@@ -6,6 +6,8 @@ Test the search yourself !
 
 Here's the link : https://foodle-search.vercel.app/
 
+Happy hacking !
+
 <img width="1680" alt="Screen Shot 2021-07-09 at 11 50 58" src="https://user-images.githubusercontent.com/74446624/125024985-02befd80-e0ac-11eb-8029-d098e7c4e6c9.png">
 
 <img width="1680" alt="Screen Shot 2021-07-09 at 11 53 34" src="https://user-images.githubusercontent.com/74446624/125025145-5af5ff80-e0ac-11eb-9d8e-d60672d96365.png">
