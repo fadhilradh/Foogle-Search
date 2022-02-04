@@ -32,8 +32,8 @@ export default function Home() {
    return (
       <div className="flex flex-col h-screen items-center justify-center">
          <Head>
-            <title>Foodle</title>
-            <meta name="description" content="Noodle" />
+            <title>Foogle Search</title>
+            <meta name="description" content="Foogle" />
             <link rel="icon" href="/google-header.jpeg" />
          </Head>
 
@@ -50,17 +50,15 @@ export default function Home() {
             </div>
          </header>
 
-         <form className="flex flex-col items-center mt-44 flex-grow w-11/12">
+         <form className="flex flex-col items-center mt-24 flex-grow w-11/12">
             <img
                src="/logo-parody.png"
-               width={300}
-               height={100}
                alt="logo "
-               className="h-20 w-52 sm:h-24 sm:w-80"
+               className="h-20 w-52 sm:h-24 sm:w-56"
             />
             <div
                className="flex items-center px-4 py-2 w-full max-w-lg my-5 border border-gray-200 rounded-full 
-        outline-none hover:shadow-google focus-within:shadow-google sm:max-w-xl lg:max-w-2xl"
+        outline-none hover:shadow-google focus-within:shadow-google sm:max-w-xl "
             >
                <SearchIcon className="h-5 mr-3 text-gray-400" />
                <input
@@ -70,13 +68,13 @@ export default function Home() {
                />
                <MicrophoneIcon className="hidden sm:inline-flex h-5 ml-3 text-gray-500" />
             </div>
-            <div className="flex flex-col w-1/2 space-y-3 sm:space-x-5 justify-center mt-5 sm:space-y-0 sm:flex-row">
+            <div className="flex flex-col w-1/2 space-y-3 sm:space-x-5 justify-center  sm:space-y-0 sm:flex-row">
                <button
                   onClick={search}
                   type="submit"
-                  className="btn hidden md:inline-flex"
+                  className="btn hidden md:inline-flex text-gray-700 font-normal"
                >
-                  Foodle Search
+                  Foogle Search
                </button>
             </div>
          </form>

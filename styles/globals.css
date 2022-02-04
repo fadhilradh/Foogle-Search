@@ -3,20 +3,20 @@
 @tailwind utilities;
 
 @layer components {
-  .link {
-    @apply hover:underline cursor-pointer;
-  }
+   .link {
+      @apply hover:underline cursor-pointer;
+   }
 
-  .shadow-google {
-    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
-  }
+   .shadow-google {
+      box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+   }
 
-  .shadow-search-page {
-    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
-  }
+   .shadow-search-page {
+      box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+   }
 
-  .btn {
-    @apply bg-[#F8F9FA] py-2 sm:px-3 rounded-md ring-gray-300 text-gray-800 
+   .btn {
+      @apply bg-[#F8F9FA] py-1 sm:px-4 rounded-md ring-gray-300 text-gray-800 
     font-light focus:outline-none hover:ring-1 active:ring-blue-600;
-  }
+   }
 }
