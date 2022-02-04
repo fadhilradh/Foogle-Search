@@ -1,10 +1,10 @@
-### Foogle Search
+# Foogle Search
 
 ## This is a functional Google search clone. Test the search yourself ! 
 
-Made using React-Next Js, Tailwind CSS and Google API
+### Made using React-Next Js, Tailwind CSS and Google API
 
-Here's the link : https://foodle-search.vercel.app/
+Deployed site : https://foodle-search.vercel.app/
 
 Happy hacking !
 
