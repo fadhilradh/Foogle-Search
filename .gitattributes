@@ -1,1 +1,3 @@
-*.js linguist-detectable=false
+
+*.jsx diff=jsx
+*.jx  diff=jsx
