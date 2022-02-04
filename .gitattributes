@@ -1,3 +1,5 @@
-
+*.js    eol=lf
+*.jsx   eol=lf
+*.json  eol=lf
 *.jsx diff=jsx
 *.jx  diff=jsx
