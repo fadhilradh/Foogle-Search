@@ -4,7 +4,7 @@
 
 ### Made using React-Next Js, Tailwind CSS and Google API
 
-Deployed site : foogle-search.vercel.app
+Deployed site : https://foogle-search.vercel.app
 
 Happy hacking !
 
